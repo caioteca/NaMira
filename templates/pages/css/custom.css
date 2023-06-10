@@ -1,0 +1,738 @@
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Bold';
+    src: url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Regular';
+    src: url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/pt-sans/pts55f-webfont.woff2') format('woff2'),
+         url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/pt-sans/pts55f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	
+}
+
+@font-face {
+	font-family: 'PT Sans Bold';
+    src: url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/pt-sans/pts75f-webfont.woff2') format('woff2'),
+         url('https://habernews.joomlatema.net/joomla4/templates/pages/fonts/pt-sans/pts75f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#background-shadow{box-shadow:0 3px 20px 0 rgba(0, 0, 0, 0.19);-webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.19); position:relative; z-index:1;}
+#background-shadow .margincorrect{ margin-right:-15px; margin-left:-15px;}
+a:link, a:visited, a strong {text-decoration: none;transition: all 0.2s linear 0s;}
+#t3-content img{ padding:4px; max-width:100%;}
+#t3-content img.hovereffect-habernews{ border:0; padding:0;}
+#t3-content .flex-control-nav.flex-control-thumbs img{padding:0;}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .inputbox {transition: all 0.3s linear 0s;border-radius:0px;box-shadow:none;}
+.module-title,.registration legend{height:26px; padding-bottom:0; text-transform: uppercase;position:relative; line-height:1;}
+.module-title span,.registration legend span{ padding-bottom:0px;height:26px;position:relative;line-height:1; padding:0; margin:0; display:inline-block;}
+
+.t3-megamenu .t3-module .module-title{height:26px; padding-bottom:0; text-transform: uppercase;position:relative; line-height:1; margin-top:10px;}
+.t3-megamenu .t3-module .module-title span{ padding:0; margin:0;height:26px;position:relative;line-height:1;display:inline-block;}
+.t3-megamenu .mega-nav .dropdown-submenu > a::after {margin-right: 5px;}
+@keyframes fadein{from{opacity:0;top:-114px}to{opacity:1;top:0}}
+@-moz-keyframes fadein{from{opacity:0;top:-114px}to{opacity:1;top:0}}
+@-webkit-keyframes fadein{from{opacity:0;top:-114px}to{opacity:1;top:0}}
+@-o-keyframes fadein{from{opacity:0;top:-114px}to{opacity:1;top:0}}
+.t3-navhelper .container,.t3-footer .container{background-color:transparent;}
+.tagspopular ul > li {margin:0 0px 4px 0px;}
+.tagspopular ul > li > a {border-radius:0px;color:#555555;display: block;padding:3px 10px;}
+.search{ margin-top:20px;}
+.search input,.search .btn-primary{border-radius:0px; box-shadow:none;transition: all 0.3s linear 0s;display: inline-block;}
+.breadcrumb > li + li::before {font-family:FontAwesome;content: "\f0da";}
+.breadcrumb {background-color: transparent;}
+.content-icons-outer{padding:10px 0;line-height: 0;}
+ul.content-icons.pull-right {margin-bottom:0;}
+.content-icons.pull-right li {display:inline-block; list-style:none;}
+.content-icons.pull-right li.print-icon{margin-right:10px;}
+.tags{ margin-bottom:10px;}
+.tags .label-info {background-color:transparent;border-radius:0px;  margin-right:4px; font-weight:normal; letter-spacing:0.3px; line-height:1; padding-top:5px;}
+.article-aside {line-height:0;}
+.article-info {padding:10px 0;line-height: 0; }
+.article-info dd{line-height:1;}
+.pull-left.item-image img {margin-right:30px;margin-bottom: 30px;}
+.pagenav li > a {border-radius:0px;}
+.btn-default,.btn{border-radius:0px;}
+.registration .form-horizontal .form-group {margin-left:0px;margin-right:0px;border-radius:0px;}
+.registration a.btn.cancel{color:#fff;}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn{ border-radius:0px;box-shadow:none;}
+#login-form ul.unstyled {padding-left: 0;}
+#login-form li {list-style: none; margin-bottom:7PX;}
+label#jform_spacer-lbl{ font-weight:normal; font-size:90%;}
+.registration .control-group.field-spacer{ margin-top:-10px;float: right;}
+.registration .well{border-radius:0px;box-shadow:none;}
+.t3-sidebar #login-form{ padding:15px;}
+.t3-megamenu .mega > .mega-dropdown-menu .mega-col-nav.MenuColumn{ padding:20px 30px}
+.t3-megamenu .mega > .mega-dropdown-menu .mega-col-nav.MenuColumn li span{ border-bottom:0;}
+.t3-megamenu .mega > .mega-dropdown-menu .mega-col-nav.MenuColumn li span::before{position: absolute;content: "-";left:30px;}
+.t3-module.module-margintop {margin-top:20px;}
+.t3-module.module-marginbottom {margin-bottom:20px;}
+/*.module_menu .nav > li.open > a{border-color:transparent;}*/
+/*
+-------------------------------------------------------------------------------------
+HIGHLIGHTER
+-------------------------------------------------------------------------------------
+*/
+.highlighter-inner{ }
+.highlighter-left-inner {}
+.gkHighlighterWrapper.habernews { min-height:0;line-height:1;line-height:1;background-color:transparent!important;border-radius:0px; padding:17px 0 0 0!important;}
+.gkHighlighterWrapperSub.habernews { min-height:0;font-weight:400; font-size:13px;}
+.gkHighlighterInterface.habernews {min-height:11px; line-height:1;line-height:1;background-color:transparent!important;border-radius:0px!important; padding:15px 0 16px  0!important; }
+.gkHighlighterInterface.habernews span.text { margin:0 15px 0 0!important;font-size:13px; ;font-weight:400; letter-spacing:0.1px;}
+.highlighter-inner [class*=' col-']{ padding-left:0;padding-right:0;}
+.gkHighlighterWrapperSub.habernews a{ margin-right:7px; font-weight:600; }
+.gkHighlighterWrapperSub.habernews .fa{margin-right:7px; font-weight:400; font-size:14px;vertical-align: middle;}
+.head-date{padding: 15px 0 !important;text-align:right; text-transform:uppercase;font-size:13px;}
+
+/*
+-------------------------------------------------------------------------------------
+LOGO - HEAD SEARCH POSITION
+-------------------------------------------------------------------------------------
+*/
+.logo-text a { font-family:'Source Sans Pro Regular';font-weight: 600;}
+.logo-text .site-slogan { font-family:'Source Sans Pro Regular';font-size: 13px;margin-top: 0px;}
+.head-search,.head-search p {margin: 0px!important; line-height:1;}
+.t3-header {}
+
+/*
+-------------------------------------------------------------------------------------
+MAINNAV
+-------------------------------------------------------------------------------------
+*/
+#t3-mainnav.navbar-default {border: 0;background-color: transparent;}
+#t3-mainnav .container{ padding-left:0; padding-right:0;}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > .separator,.navbar-default .navbar-nav > li span {text-transform:uppercase; font-weight:600;transition: all 0.2s linear 0s;}
+.t3-megamenu .dropdown-menu .mega-nav > li a,.t3-megamenu .dropdown-menu .mega-nav > li span,.t3-megamenu .dropdown-header, .t3-megamenu .mega-nav .mega-group > .dropdown-header, .t3-megamenu .dropdown-menu .mega-nav .mega-group > .dropdown-header, .t3-megamenu .dropdown-menu .active .mega-nav .mega-group > .dropdown-header{ padding:10px 0 10px 15px;text-transform:none; font-weight:normal;transition: all 0.2s linear 0s; }
+.t3-megamenu .dropdown-menu .mega-nav > li a:hover,.t3-megamenu .dropdown-menu .mega-nav > li a:hover,.t3-megamenu .dropdown-menu .mega-nav > li span:hover{transition: all 0.2s linear 0s;padding-left:20px;}
+.t3-megamenu .mega > .mega-dropdown-menu .mega-col-nav{padding-left:0; padding-right:0;}
+.t3-megamenu .dropdown-menu{ padding:0;border-radius:0px; border:0; margin:0;}
+#t3-mainnav.affix{animation:fadein 0.5s;-moz-animation:fadein 0.5s;-webkit-animation:fadein 0.5s;-o-animation:fadein 0.5s;}
+#t3-mainnav.affix .container{box-shadow: 0 5px 5px 1px  rgba(0, 0, 0, 0.20);}
+.fullwidth-layout #t3-mainnav.affix .container{box-shadow: none}
+.fullwidth-layout #t3-mainnav.affix {box-shadow: 0 5px 5px 1px  rgba(0, 0, 0, 0.20);}
+.t3-megamenu .nav > .dropdown > .separator .caret{ display:inline-block; margin-left:6px;}
+.t3-megamenu .mega-nav .dropdown-submenu > a:::after{ margin-right:5px;}
+.navbar-default .navbar-nav .dropdown-menu > li span{ text-transform:none; display:block;font-weight: normal;}
+.t3-megamenu .mega-nav > li a, .t3-megamenu .dropdown-menu .mega-nav > li a {white-space: normal;display: block;}
+.t3-megamenu .mega-nav > li, .t3-megamenu .dropdown-menu .mega-nav > li {list-style: none;margin-left: 0;}
+.t3-megamenu .mega > .mega-dropdown-menu {min-width: 200px;}
+.t3-megamenu .mega-nav, .t3-megamenu .dropdown-menu .mega-nav {margin: 0;padding: 0;list-style: none;}
+.t3-megamenu .mega-inner {padding: 0px 0;}
+.t3-megamenu .row {margin-left: auto;margin-right: auto;}
+.t3-megamenu .dropdown-menu.nav-features .mega-nav > li a:hover, .t3-megamenu .dropdown-menu.nav-features .mega-nav > li span:hover{ background-color:transparent!important;}
+/*
+-------------------------------------------------------------------------------------
+HEADLINE JT3 - MAIN SLIDER
+-------------------------------------------------------------------------------------
+*/
+@-webkit-keyframes zoominout {
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+    50% {
+        -webkit-transform: scale(1.5,1.5);
+    }
+    100% {
+        -webkit-transform: scale(1.1,1.1);
+    }
+}
+
+@keyframes zoominout {
+    0% {
+        transform: scale(1,0);
+		opacity:0.1;
+    }
+    50% {
+        transform: scale(1.5,1.5);
+		opacity:0.8;
+    }
+    100% {
+        transform: scale(1.0,1.0);
+		opacity:1;
+    }
+}
+
+.slides > li img {
+  opacity: 0;
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;}
+	
+.slides > li.flex-active-slide img{ opacity: 1;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);}
+.slides > li.flex-active-slide,.slides > li  { overflow:hidden;}
+
+
+.overlay-bg-habernews{position:absolute; left:0; bottom:0; right:0; height:40%; z-index:1;}
+.overlay-section-habernews{ position:absolute; left:0; bottom:0; width:100%; background-color:rgba(0,0,0, 0.40); z-index:2;height:40%;overflow: hidden; color:#fff; padding:15px;}
+.overlay-section-habernews .jt3-category,.overlay-section-habernews .jt3-category a ,.overlay-section-habernews .jt3-title,.overlay-section-habernews .jt3-title a,.overlay-section-habernews .jt3-extra,.overlay-section-habernews .jt3-extra a,.overlay-section-habernews h4,.overlay-section-habernews h4 a,p.introtext.habernews,p.readmore.habernews a{ color:#fff!important;}
+.jt3-extra,.overlay-section-habernews h4,.overlay-section-habernews h4 a{ font-size:20px; font-weight:600;background:none; background-color:transparent;}
+#jt3_headline-news_wrapper.habernews .flex-control-nav.flex-control-thumbs {padding-left:0!important; padding-right:0px!important; border-left:0; border-right:0; border-top:0;margin-right:-3px!important}
+.jt3-extra .habernews{ font-size:70%; font-weight:normal;}
+.jt3-category.habernews,.jt3-category.habernews a{ text-transform:uppercase;}
+p.introtext.habernews{ font-size:18px;}
+.flex-control-nav li { background:none!important; margin:0px!important;}
+.flex-control-thumbs img{opacity:1!important}
+.flex-direction-nav .flex-prev{ text-indent:6px!important}
+.flex-direction-nav .flex-next{ text-indent:2px!important}
+img.hovereffect-habernews{transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-transition: all 0.3s ease;image-rendering: optimizequality;}
+
+@-webkit-keyframes progressbar {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+
+@keyframes progressbar {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+#jt3_headline-news_wrapper.habernews .flex-active-slide{ position:relative}
+#jt3_headline-news_wrapper.habernews .flex-active-slide::after{ content:"";margin:0px;width:100%;height:3px;overflow: hidden;position: absolute; z-index:6; bottom:0;}
+#jt3_headline-news_wrapper.habernews .flex-direction-nav a{ top:40%;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;}
+#jt3_headline-news_wrapper.habernews .flex-direction-nav a::before {font-family: "FontAwesome";font-size: 30px;display: inline-block;content: '\f104';color: rgba(255, 255, 255, 1);text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
+}
+#jt3_headline-news_wrapper.habernews .flex-direction-nav a.flex-next::before {content: '\f105';}
+#jt3_headline-news_wrapper.habernews .flex-direction-nav .flex-next {right:-50px;text-align: center;}
+#jt3_headline-news_wrapper.habernews:hover .flex-direction-nav .flex-prev {opacity:1;left: 0px;}
+#jt3_headline-news_wrapper.habernews:hover .flex-direction-nav a.flex-next {opacity: 1;right: 0px;}
+
+/*
+-------------------------------------------------------------------------------------
+BT-CONTENT SLIDER - PICTURED NEWS TOP RIGHT
+-------------------------------------------------------------------------------------
+*/
+.jt-inner.habernews.pictured-news{ padding:0;}
+.jt-cs .jt-inner.habernews.pictured-news img{ margin-bottom:0;transition: all 0.3s ease-in-out 0s; border:0; max-width:100%; padding:0; margin:0;}
+.jt-cs .jt-inner .jt-category.pictured-news{ font-size:14px; color:#fff; font-weight:normal; padding:8px 8px 5px 8px; text-transform:uppercase; line-height:1;}
+
+.jt-cs.habernews .jt-inner .jt-title.habernews.pictured-news{color:#fff; font-weight:600; text-transform:none;}
+.pictured-news .jt-introtext.habernews{ color:#fff; }
+.jt-cs .jt-inner.habernews.pictured-news:hover img ,.flex-active-slide:hover img.hovereffect-habernews{transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-transition: all 0.3s ease;image-rendering: optimizequality;-webkit-transform: scale(1.15);-moz-transform: scale(1.15);-ms-transform: scale(1.15);-o-transform: scale(1.15);transform: scale(1.15);transform: scale(1.15);}
+.habernews-pictured-news .jt-image-link::after{ position:absolute; content:""; left:0; right:0; top:0; bottom:0; background:#000; opacity:0;transition: all 0.3s ease-in-out 0s; z-index:1}
+.jt-cs .jt-inner.habernews.pictured-news:hover .jt-image-link::after{transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-transition: all 0.3s ease;image-rendering: optimizequality;opacity:0.3;}
+.jt-cs.habernews .jt-title-cat-intro-habernews{ position:absolute; bottom:0; left:0; padding:15px; width:100%;background-color:rgba(0,0,0, 0.40); z-index:2;height:40%;overflow: hidden; }
+.jt-imagewrap.habernews{ z-index:2; position:relative; overflow:hidden;}
+.jt-cs .habernews .jt-imagewrap.habernews{ margin-bottom:3px;transition: all 0.3s ease-in-out 0s; overflow:hidden;}
+.jt-category-habernews{ position:absolute; left:15px; top:15px; z-index:3;}
+.jt-cs .habernews-pictured-news .jt-row{ padding:0;}
+.jt-cs.habernews .jt_handles {}
+.jt-cs.habernews .jt_handles li a {background-color:#fff;display: block !important;width: 10px;height:10px;padding-top: 10px;background-image: none!important;background-position: 0 0;float: left;padding: 10px 0 0 0 !important;overflow: hidden;border-radius:100%;opacity:0.80!important}
+
+.jt-cs.habernews a.next,.jt-cs.habernews .habernews-pictured-news a.prev {display:inherit;opacity: 0.7;}
+.jt-cs.habernews .habernews-pictured-news a.prev {display:inherit;width: 20px;height: 20px;opacity: 0.7;position:absolute; top:-23px; right:23px; left:auto!important;background: url(../images/re-left.png) left center no-repeat !important;}
+.jt-cs.habernews .habernews-pictured-news a.next {display:inherit;width: 20px;height: 20px;opacity: 0.7;position:absolute; top:-23px; right:0;background: url(../images/re-right.png) right center no-repeat !important;}
+.t3-module.module-picturednews1{ margin-bottom:10px;}
+.jt-cs.habernews.pictured-news .jtcs-author-date{ color:#fff;}
+.jt-cs.habernews.pictured-news .jtcs-author-date .fa{ margin-right:5px}
+.jt-cs.habernews.pictured-news .jt-date{ margin-right:15px}
+.jt-imagewrap.habernews img{ max-width:100%!important}
+.jt-cs.habernews .owl-dot span,.jt-cs.habernews .owl-dots .active span {width:10px;height:10px; margin:0 2px;border:0;background:rgba(0,0,0,0.1)}
+.jt-cs.pictured-news .owl-dots {text-align:right;position: absolute;top:5px;right:7px;}
+.jt-cs.habernews .owl-carousel .owl-nav .owl-next, .jt-cs.habernews .owl-carousel .owl-nav .owl-prev {font-size:20px; margin-top:-15px}
+/*
+-------------------------------------------------------------------------------------
+POLITICS - NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+
+.nspMain.habernews{ }
+.nspArt .nspInfo {line-height:1!important;padding: 10px 0px 10px 0px;}
+.nspMain.habernews img.nspImage{padding:4px;transition: all 0.3s ease-in-out 0s;z-index:1}
+.nspMain.habernews .nspImageWrapper{ overflow:hidden; position:relative; z-index:1}
+.nspArts.habernews .nspInfo{}
+.nspArts.habernews  .nspInfo .fa,.nspLinks.habernews .nspInfo .fa,.nspArts.habernews .nspInfo span, .nspLinks.habernews .nspInfo span{margin-right:7px;}
+.nspInfo.habernews{ font-size:90%; margin:0;}
+.nspArts.habernews a.readon{ padding:9px 10px 5px 10px; color:#fff; line-height:1; margin-top:20px;}
+.Nsp-outer-wrapper.habernews .nspArts.habernews h4.nspHeader{padding: 0px 0 0px 0; margin-bottom:10px;}
+.nspLinks.habernews {padding:0px;}
+.nspLinks.habernews .nspLinkScroll1 ul li {border-top:0;padding: 10px 0px; background:none;}
+.nspArts.habernews {padding:0px;}
+.nspLinksWrap.right.habernews{ margin-top:-10px;overflow: hidden;}
+.nspLinks.habernews h4, .nspLinks.habernews h4 a{ margin-top:0px;}
+
+.nspMain.habernews .nspImageWrapper:hover img.nspImage{transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-transition: all 0.3s ease;-webkit-transform: scale(1.15);-moz-transform: scale(1.15);-ms-transform: scale(1.15);-o-transform: scale(1.15);transform: scale(1.15);transform: scale(1.15);}
+
+.nspMain.habernews a.nspImageWrapper::after{ position:absolute; content:""; left:0; right:0; top:0; bottom:0; background:#000; opacity:0;transition: all 0.3s ease-in-out 0s; z-index:1}
+.nspMain.habernews a.nspImageWrapper:hover::after{transition: all 0.3s ease;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;-ms-transition: all 0.3s ease;opacity:0.3;}
+
+.nspPagination li{ text-indent:-9999em;}
+.nspArtPage.active{}
+.nspLinksWrap{ overflow:hidden;}
+.Nsp-outer-wrapper.habernews {position:relative; z-index:1;}
+.nspArts.right.habernews .nspTopInterface-outer{position: absolute; z-index:2;top:-45px; left:0}
+.nspArts.left.habernews .nspTopInterface-outer{position: absolute; z-index:2;top:-45px; right:0}
+.nspArts.bottom.habernews .nspTopInterface-outer{position: absolute; z-index:2;top:-45px; right:0}
+
+.nspLinksWrap.left.habernews .nspBotInterfaceouter{position: absolute; z-index:5;top:-45px; left:0}
+.nspLinksWrap.right.habernews .nspBotInterfaceouter{position: absolute; z-index:5;top:-45px; right:0}
+
+.Nsp-outer-wrapper.habernews .nspTopInterface{ float:right; padding-right:0px;}
+.nspBotInterface.habernews .nspNext, .nspTopInterface.habernews .nspNext,.nspBotInterface.habernews .nspPrev,.nspTopInterface.habernews .nspPrev {background:none;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;cursor: pointer;float: left;height: 20px;margin: 0 0;overflow: hidden;text-indent: -999px;width: 20px;}
+
+.nspBotInterface.habernews .nspPrev::before,.nspTopInterface.habernews .nspPrev::before  { border:0; width:20px; height:20px;font-family: "FontAwesome";font-size: 18px;display: inline-block;content: '\f104';text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);text-indent:0px;line-height:1;text-align:center;margin:0;padding-right:4px;}
+.nspBotInterface.habernews .nspNext::before,.nspTopInterface.habernews .nspNext::before  { border:0; width:20px; height:20px;font-family: "FontAwesome";font-size: 18px;display: inline-block;content: '\f105';text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);text-indent:0px;line-height:1;text-align:center;margin:0;padding-right:1px;}
+.nspBotInterface.habernews .nspNext,.nspTopInterface.habernews .nspNext{ margin-left:4px;}
+.nspBotInterface.habernews .nspPagination li,.nspTopInterface.habernews .nspPagination li {background: #78899b ;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;cursor: pointer;float: left;height: 10px;margin: 1px 4px 0 0 !important;width: 10px;}
+.nspBotInterface.habernews .nspPagination li.active,.nspTopInterface.habernews .nspPagination li.active {background-color:#22303d;}
+.nspBotInterface.habernews .nspPagination li > a,.nspTopInterface.habernews .nspPagination li > a {background: transparent;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;display: block;height: 10px;overflow: hidden;padding: 0;text-indent: -999em;width: 10px;}
+.nspBotInterface.habernews .nspPagination,.nspTopInterface.habernews .nspPagination{margin:4px 2px 0 0 !important;}
+.nspLinks .nspImageWrapper{ width:auto !important;}
+
+/*
+-------------------------------------------------------------------------------------
+TABBED NEWS - JT TABS MODULE
+-------------------------------------------------------------------------------------
+*/
+.jttabs-wrapper.habernews ul.nav-tabs{ border-bottom:0;}
+.jttabs-wrapper.habernews ul.nav-tabs > li {margin-bottom:0px;}
+.jttabs-wrapper.habernews ul.nav-tabs > li button.nav-link{color:#fff;border-radius:0px;text-transform:uppercase; margin-right:0; border-bottom:0; border-left:0; border-top:0;background: none;padding: 10px 15px;transition: all 0.2s linear 0s;}
+.jttabs-wrapper.habernews .nav > li > a:hover {background-color:transparent;}
+.jttabs-wrapper.habernews ul.nav-tabs > li button.nav-link.active, .jttabs-wrapper.habernews ul.nav-tabs > li button.nav-link.active:hover, .jttabs-wrapper.habernews ul.nav-tabs > li button.nav-link.active:focus {border-radius:0px;color:#fff;border-left:0; border-top:0; border-bottom:0;cursor: default;}
+.jttabs-wrapper.habernews.layout-default .tab-content {padding: 5px 15px 15px 15px;}
+
+
+/*
+-------------------------------------------------------------------------------------
+SUBMAIN MODULES
+-------------------------------------------------------------------------------------
+*/
+.submain-3,.submain-4{ float:left;}
+.submain-3{ padding-left:0;padding-right:15px;}
+.submain-4{ padding-left:15px;padding-right:0px;}
+.nsp-habernews a.readon{text-transform:uppercase; font-size:13px;}
+.submain-3 .nspArts,.submain-4 .nspArts{ margin-bottom:15px;}
+
+/*
+-------------------------------------------------------------------------------------
+TECHNOLOGY - NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+.Nsp-outer-wrapper.habernews.sidebar p.nspInfo{ border-top:0; border-bottom:0;padding: 0px;}
+.Nsp-outer-wrapper.habernews.sidebar .nspArts.habernews h4.nspHeader{padding: 0px;}
+.Nsp-outer-wrapper.habernews.sidebar .nspArt{}
+
+/*
+-------------------------------------------------------------------------------------
+CHANGING NEWS - MANSETHABER JT2 MODULE
+-------------------------------------------------------------------------------------
+*/
+
+#jt2-mansethaber-news .habernews h2,.jt2-mansethaber-pagination.habernews a.toc span,#jt2-mansethaber-news.habernews a.showmore:link,#jt2-mansethaber-news.habernews a.showmore:visited{font-weight:600;}
+#jt2-mansethaber-news .habernews h2,.jt2-mansethaber-pagination.habernews a.toc span,.jt2-mansethaber-pagination.habernews a.selected span,.jt2-mansethaber-pagination.habernews a.toc:hover span{ height:auto; line-height:1.3;background:none!important;padding: 10px 0 10px 0px;}
+#jt2-mansethaber-news .habernews h2:hover,.jt2-mansethaber-pagination.habernews a.toc span:hover,#jt2-mansethaber-news.habernews a.showmore:link:hover,#jt2-mansethaber-news.habernews a.showmore:visited { padding: 10px 0 10px 0px!important;}
+.jt2-mansethaber-pagination.habernews a.toc span,.jt2-mansethaber-pagination.habernews a.toc:hover span,.jt2-mansethaber-pagination.habernews a.selected span{ background:none; margin:0;}
+.jt2-mansethaber-pagination.habernews .mjt2-date {padding-left:0px;}
+
+/*
+-------------------------------------------------------------------------------------
+TRAVEL - NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+.Nsp-outer-wrapper.habernews.submain p.nspInfo{ }
+.Nsp-outer-wrapper.habernews.submain .nspArts.habernews h4.nspHeader{padding: 0px 0 5px 0;}
+.Nsp-outer-wrapper.habernews.submain{ margin-right:-15px;}
+.Nsp-outer-wrapper.habernews.submain .nspTopInterface ,.Nsp-outer-wrapper.habernews.submain .nspBotInterface {margin-right:15px;}
+/*
+
+/*
+-------------------------------------------------------------------------------------
+SCROLLING NEWS - VERTICAL SCROLLER JT1 PRO
+-------------------------------------------------------------------------------------
+*/
+.vertical-scroller.habernews{ overflow:hidden;}
+.vertical-scroller.habernews .panel-default{border:0; border-radius:0px;}
+.vertical-scroller.habernews .panel-footer {
+position:absolute;top:-40px;right:0;padding: 0px 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;background-color:transparent;border-top:0;}
+.vertical-scroller.habernews  .panel-body {position:relative;	padding:0px;}
+.vertical-scroller.habernews [class*='icon']{font-family:FontAwesome;}
+.vertical-scroller.habernews  .pagination [class*='icon'], .vertical-scroller .habernews  .pagination > li [class*='icon'] {line-height:1; width:20px;height:20px;position: relative;text-decoration: none;outline: none;border-radius:0px;padding:0;}
+.vertical-scroller.habernews  .pagination > li {display: inline;}
+.vertical-scroller.habernews  .pagination > li > a, .vertical-scroller.habernews  .pagination > li > span {background-color:transparent;float: left;line-height: 1;margin-left: 4px;padding: 1px 4px;position: relative;text-decoration: none;outline: none;border-radius:0px;}
+.vscr-image.habernews{border:4px solid transparent;background:none;}
+.vertical-scroller.habernews h4{ margin-top:0;}
+.vjt1-author.small,.vjt1-date.small{font-size: 90%!important;margin-right: 7px;}
+.vjt1-extra.habernews { margin-bottom:3px;}
+.vjt1-extra.habernews .fa,.show_all{margin-right: 7px;}
+.vertical-scroller.habernews .scroller{}
+.vertical-scroller.habernews .panel{ box-shadow:none;margin-bottom:0; background-color:transparent;}
+.vertical-scroller.habernews{ overflow:hidden;}
+
+/*
+-------------------------------------------------------------------------------------
+WORLD NEWS - NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+.Nsp-outer-wrapper.habernews .nspArt p.nspText{ margin-bottom:15px; margin-top:15px;}
+.Nsp-outer-wrapper.habernews.submain-2 p.nspInfo{ border-top:0; border-bottom:0;padding: 3px 0px 3px 0px; margin-bottom:0;}
+.Nsp-outer-wrapper.habernews.submain-2 .nspArt{ }
+
+/*
+-------------------------------------------------------------------------------------
+ENTERAINMENT - CULTURE - FOOD NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+.Nsp-outer-wrapper.habernews.downspot p.nspInfo{ border-top:0; border-bottom:0;padding: 3px 0px 7px 0px;}
+.module-title.brand-primary,.module-title.brand-secondary{ color:#fff; padding:11px 14px 9px 15px; line-height:1; height:40px;}
+.module-title.brand-primary  span,.module-title.brand-secondary span { border-bottom:0;}
+.Nsp-outer-wrapper.habernews.downspot .nspArt{ }
+.Nsp-outer-wrapper.habernews.downspot p.nspInfo{ border-top:0; border-bottom:0;padding:0px; margin-bottom:0;}
+
+.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspPrev::before,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspPrev::before  { border:0; width:7px; height:11px;font-family: "FontAwesome";font-size: 18px;display: inline-block;content: '\f0d9';text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);text-indent:0px;line-height:1;text-align:center;margin:0;padding-right:4px; color:#fff;}
+.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspNext::before,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspNext::before  { border:0; width:7px; height:11px;font-family: "FontAwesome";font-size: 18px;display: inline-block;content: '\f0da';text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);text-indent:0px;line-height:1;text-align:center;margin:0;padding-right:1px; color:#fff;}
+
+.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspNext, .Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspNext,.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspPrev,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspPrev {background:none;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;cursor: pointer;float: left;height: 20px;margin: 0 0;overflow: hidden;text-indent: -999px;width: 7px;border:0;}
+
+.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspNext:hover::before,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspNext:hover::before,.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspPrev:hover::before,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspPrev:hover::before {color:#ccc;}
+
+.Nsp-outer-wrapper.habernews.downspot .nspBotInterface.habernews .nspPrev,.Nsp-outer-wrapper.habernews.downspot .nspTopInterface.habernews .nspPrev{ margin-right:3px;}
+.Nsp-outer-wrapper.habernews.downspot .nspTopInterface {padding-top:2px; padding-right:14px; line-height:1; margin:0;}
+
+.bottomspot-main{}
+/*
+-------------------------------------------------------------------------------------
+RECENT NEWS - NEWS PRO GK5
+-------------------------------------------------------------------------------------
+*/
+
+.Nsp-outer-wrapper.habernews.sidebar-2 p.nspInfo{ border-top:0; border-bottom:0;padding: 3px 0px 7px 0px;}
+
+
+/*
+-------------------------------------------------------------------------------------
+NEWSLETTER - ACYMAILING
+-------------------------------------------------------------------------------------
+*/
+
+.acymailing_module_form.habernews{}
+.acymailing_form.habernews{ margin:0px; width:100%;}
+.acymailing_form.habernews input{border-radius:0px;box-shadow:none;}
+.acymailing_form.habernews .button.subbutton {text-transform:uppercase; padding:10px 15px 6px 15px; min-width:136px; float:right;transition: all 0.2s linear 0s; border:0;}
+.acymailing_module_form.habernews.acymailing_module_form td {padding-bottom: 15px;}
+.acysubbuttons-inner {/* width:80%;*/}
+/*
+-------------------------------------------------------------------------------------
+FOOTER
+-------------------------------------------------------------------------------------
+*/
+.t3-copyright {border-top:0;}
+ul.footerlogo_social_icon{float:left;width:100%; margin-top:30px; }
+ul.footerlogo_social_icon li{display:inline-block;margin-right:10px;}
+ul.footerlogo_social_icon .fa{ width:29px; text-align:center; }
+.t3-footnav .t3-module ul.footerlogo_social_icon li a {display: inline-block;height: 29px;width: 29px;text-align: center;line-height: 29px;font-size: 16px;transition: all 0.3s ease-in-out 0s;}
+.Nsp-outer-wrapper.habernews.footer .nspArts.habernews h4.nspHeader,.Nsp-outer-wrapper.habernews.footer .nspArts.habernews h4.nspHeader a,#t3-footer .nspArts.habernews h4.nspHeader a,#t3-footer .nspArts.habernews h4.nspHeader { color:#fff;margin-bottom: 5px;}
+.Nsp-outer-wrapper.habernews.footer p.nspInfo,#t3-footer .Nsp-outer-wrapper.habernews.footer p.nspInfo,#t3-footer .nspInfo.habernews  {border-top: 0;border-bottom: 0;padding:0px; margin:0; color:#fff!important;}
+.nspMain.habernews.footer img.nspImage {padding: 4px;transition: all 0.3s ease-in-out 0s;z-index: 1;}
+.Nsp-outer-wrapper.habernews.footer .nspBotInterface.habernews .nspNext, .Nsp-outer-wrapper.habernews.footer .nspTopInterface.habernews .nspNext,.Nsp-outer-wrapper.habernews.footer .nspBotInterface.habernews .nspPrev,.Nsp-outer-wrapper.habernews.footer .nspTopInterface.habernews .nspPrev{background:none; }
+.Nsp-outer-wrapper.habernews.footer .nspTopInterface {padding-right:0px;}
+.Nsp-outer-wrapper.habernews.footer .nspArts.bottom.habernews .nspTopInterface-outer {top: -50px;}
+#t3-footer .nspLinks .nspLinkScroll1 ul li {background:none;border-top: 0;}
+#t3-footer .nspLinks.habernews h4, #t3-footer .nspLinks.habernews h4 a { color:#fff;}
+.copyright,.copyright p {margin-bottom:0; font-size:13px;}
+.bottomright ul.menu{float:right; margin-right:0px;}
+.bottomright ul.menu li{display:inline-block;}
+.bottomright ul.menu li a{background:none; border-radiuss:0px; color:#fff; font-size:13px; padding:0px 30px 0px 0px}
+.bottomright ul.menu li a:hover,.bottomright ul.menu li.active a:hover,.bottomright ul.menu li a:focus{ background:none; border-radius:0px;}
+.habernews.articles_count ul{padding-left:0px;}
+.habernews.articles_count ul li {padding:10px 0; list-style:none;}
+.habernews.articles_count .fa{margin-right:10px;}
+.habernews.articles_count span.artcount{ float:right;}
+
+.t3-footnav ul.mod-articlescategories.categories-module.mod-list.habernews li {padding:10px 0; list-style:none; margin:0;}
+.t3-footnav ul.mod-articlescategories.categories-module.mod-list.habernews li a{ padding-left:25px}
+.t3-footnav ul.mod-articlescategories.categories-module.mod-list.habernews li a::before{ position:absolute;left:15px;top:auto ; content:"\f115";font: normal normal normal 14px/1 FontAwesome;margin-top: 5px;
+}
+.t3-footnav ul.mod-articlescategories.categories-module.mod-list.habernews .numitems{ float:right;}
+/*
+-------------------------------------------------------------------------------------
+                         PROGRESS BAR
+-------------------------------------------------------------------------------------
+*/
+@-webkit-keyframes animate-stripes {
+  from {
+    background-position: 0 0;
+  }
+  
+  to {
+   background-position: 44px 0;
+  }
+}
+
+.ui-progress-bar1 {position: relative;height:14px;padding-right: 2px;background-color: #e0e0e0;margin-top: -10px;}
+.ui-progress1 {position: relative;display: block;overflow: hidden;height:14px;}
+.ui-progress1 span.ui-label {font-family: 'Open Sans', sans-serif;font-weight: 300;text-transform: uppercase;font-size: 14px;color: #fff;position: absolute;right: 0;line-height:14px;padding-right: 30px;white-space: nowrap;}
+.ui-progress-bar1.color {height:14px;margin-top: -5px;}
+.ui-progress1.color {height:14px;background-color: #e54c4c;}
+.ui-progress1 span.ui-label {line-height:14px;}
+/*
+	=======================================
+		ABOUT US
+	=======================================
+*/
+.owl-theme .owl-controls{ margin-bottom:20px;}
+.counters { text-align:center; padding:30px 0}
+.counters h4{ margin-bottom:0;}
+.counters .counter-icon{width:80px; height:80px; border-radius:100%; display:inline-block;margin-bottom:15px; padding:15px;}
+.counters i {display: block;font-size:50px;color:#fff; text-align:center; line-height:50px}
+span.timer {display: block;font-size:40px;margin-bottom:15px;text-align:center}
+.zt-module-testimonial .zt-testimonial.habernews {background-color:transparent;}
+.zt-module-testimonial .zt-testimonial.habernews .zt-info-name,.counters h4{ text-transform: uppercase;}
+.wrap.t3-upperfooter,.wrap.t3-upperfooter .container{ background-color:#f5f5f5;}
+.zt-module-testimonial.habernews .info a:hover{ background-color:transparent;box-shadow:none;}
+.ztTestimonial.habernews img.avatar{ width:100px; height:100px;}
+.ztTestimonial.habernews  p.content-testimonial{ margin-bottom:60px;}
+.ztTestimonial.habernews ol.carousel-indicators{ bottom:0px; position:relative; padding-top:30px;}
+.ztTestimonial.habernews ol.carousel-indicators li{background-color:#fff; border:1px solid #aaa;}
+.ztTestimonial.habernews ol.carousel-indicators li.active{background-color:#aaa; border:1px solid #bbb;}
+.ztTestimonial.habernews .name, .ztTestimonial.habernews .email, .ztTestimonial.habernews .position, .ztTestimonial.habernews .website  {}
+.ztTestimonial.habernews .name{ font-weight:600;}
+.ztTestimonial.habernews .fa-quote-left{ margin-right:15px;}
+.ztTestimonial.habernews .fa-quote-right{ margin-left:15px;}
+.zt-testimonial.habernews .zt-information p.zt-content{ text-align:justify;}
+.zt-module-testimonial .zt-testimonial.habernews .zt-information .zt-info-name { margin-bottom:5px;}
+.aboutus-img{ position:relative; background:url(../images/about_us3.jpg) no-repeat fixed; background-size:cover; min-height:200px; }
+.aboutus-img-overlay{position:absolute; top:0; left:0; right:0; bottom:0; opacity:0.92; z-index:1;}
+.aboutus-overlay-text{ text-align:center; z-index:2; color:#fff; position:relative; width:100%; font-size:18px; padding:30px 30px}
+.aboutus-img{ margin-left:-15px; margin-right:-15px;}
+.aboutus-title{ color:#fff; margin-top:0px;}
+
+/*
+	=========================================
+	 JT TESTIMONIAL
+	=========================================
+*/
+.jt-testimonial-wrap.habernews.customer .testimonial_block-text::after{content:"";position:absolute;width:0;height:0;border-style:solid;bottom:-28px;left:auto;right:55px;}
+.jt-testimonial-wrap.habernews.customer .testimonial_block-text::before{content:"";position:absolute;width:0;height:0;bottom:-30px;right:45px;left:auto;margin-right:10px;}
+.jt-testimonial-wrap.habernews.customer .testimonial_block-text{padding:25px;position:relative;margin:0px 0px 50px 0px;min-height:10px;transition:all .8s;-moz-transition:all .8s;-ms-transition:all .8s;-o-transition:all .8s;-webkit-transition:all .8s;font-size:17px;line-height:1.6em;font-style:italic;}
+.jt-testimonial-wrap.habernews.customer .testimonial_block-image{box-shadow:0 .5rem 1rem rgba(0,0,0,.15) !important;margin-left:20px}
+.jt-testimonial-wrap.habernews.customer .jt_testimonial-img-data{padding-left:30px;}
+.jt-testimonial-wrap.habernews.customer .testimonial_block-name{font-size:16px;}
+.jt-testimonial-wrap.habernews.customer .jt_testimonial-img-data{display:flex;align-items:center;justify-content:flex-end;width:100%;}
+
+.zt-testimonial.volunteer p.content-testimonial{
+	padding:18px 18px;
+	position:relative;
+	min-height:10px;
+	border-radius:3px 3px 3px 3px;
+	margin:0 0 40px 0;
+	/* position:relative;*/
+	z-index:10;
+	font-size:17px;
+	line-height:1.6em;
+	font-style:italic;
+}
+.jt_testimonial-outer.habernews .jt_testimonial-block-slide{background-color:#ffffff;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-bottom:3px solid transparent;-webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 3px 10px rgba(0, 0, 0, 0.1);box-shadow:0 3px 10px rgba(0, 0, 0, 0.1);}
+.jt_testimonial-outer.habernews .jt_testimonial-block-slide:hover{-webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 3px 10px rgba(0, 0, 0, 0.4);box-shadow:0 3px 10px rgba(0, 0, 0, 0.4);}
+.jt_testimonial-outer.habernews .testimonial_block-image{overflow:hidden;}
+.jt_testimonial-outer.habernews .testimonial_block-image img{max-width:100%}
+.jt_testimonial-outer.habernews .testimonial_block-data{margin-top:5px;padding:15px}
+.jt_testimonial-outer.habernews .testimonial_block-text::after{display:none;}
+.jt_testimonial-outer.habernews .testimonial_block-text{border-top:1px solid rgba(0, 0, 0, 0.1);border-bottom:1px solid rgba(0, 0, 0, 0.1);margin:14px 0;padding:14px 0;}
+.jt_testimonial-outer.habernews .testimonial_block-data .jt-social-icons{display:flex;justify-content:center;}
+.jt_testimonial-outer.habernews .testimonial_block-data .jt-social-icons div{padding:0 3px}
+.jt-testimonial-wrap.habernews.customer .testimonial_block-name{ font-weight:600; letter-spacing:0.4px }
+/*
+	=======================================
+		ABOUT US - COUNTERS
+	=======================================
+*/
+
+.counters1 {float: left;width: 100%;padding: 0px;text-align: center;font-size: 50px;font-weight: 500;}
+.counters1 i {font-size: 62px;display: block;margin-bottom: 25px;}
+.counters1 h4 {display: block;width: 50%;font-size: 16px;font-weight: 400;margin: 0px auto 0 auto;border-tlayout-2-section3: 1px solid rgba(255,255,255,0.10);border-bottom: 1px solid rgba(255,255,255,0.10);padding: 5px 0px 8px 0px;}
+.counters2 {float: left;width: 100%;padding: 0px;text-align: center;font-size: 42px;color: #000;font-weight: 500;}
+.counters2 i {color: #2ecc71;font-size: 52px;display: block;margin-bottom: 35px;}
+.counters2 h4 {display: block;width: 50%;font-size: 18px;color: #2ecc71;font-weight: 400;margin: 35px auto 0 auto;border-tlayout-2-section3: 1px solid rgba(255,255,255,0.10);border-bottom: 1px solid rgba(255,255,255,0.10);padding: 5px 0px 8px 0px;}
+.counters3 {float: left;width: 100%;padding: 0px;text-align: center;font-size: 42px;font-weight: 500;}
+.counters3 i {font-size: 52px;display: block;margin-bottom: 35px;}
+.counters3 h4 {display: block;width: 50%;font-size: 18px;font-weight: 400;margin: 35px auto 0 auto;border-bottom: 1px solid rgba(255,255,255,0.10);padding: 5px 0px 8px 0px;}
+.counters4 {float: left;width: 100%;padding: 0px;text-align: center;font-size: 42px;color: #272727;font-weight: 500;margin-top:100px;}
+.counters4 i {font-size: 32px;margin-bottom:30px;border-radius:100%;width:100px;height:100px;line-height:100px;text-align: center;background-color:#4d8bf5;}
+.counters4 h4 {width: 50%;text-align: center;font-size: 18px;color: #272727;font-weight: 400;margin: 15px auto 0 auto;border-bottom: 1px solid #4d8bf5;padding: 10px 0px 12px 0px;}
+/*
+	==========================================================
+		CLIENT FEEDBACK TESTIMONIAL - ZT TESTIMONIAL MODULE
+	==========================================================
+*/
+
+.zt-testimonial.client p.content-testimonial {padding: 18px 18px ;position: relative;min-height: 10px;border-radius:3px 3px 3px 3px;margin: 0 0 40px 0; position: relative; z-index: 10; font-size: 17px; line-height: 1.6em; font-style:italic;}
+.zt-testimonial.client p.content-testimonial:before,
+.zt-testimonial.client p.content-testimonial::after {}
+.zt-testimonial.client p.content-testimonial:before {content: ''; display: block; position: absolute; right: 38px; left:auto; bottom: -16px;  border-right: 10px solid transparent; border-left: 10px solid transparent; margin-right:0;}
+.zt-testimonial.client p.content-testimonial::after {content: ''; display: block; position: absolute; right: 38px;left:auto; bottom: -14px; border-right: 10px solid transparent; border-left: 10px solid transparent; }
+.ztTestimonial.client .owl-item {padding: 15px 15px;}
+.zt-information-habernews{ text-align:right;}
+.zt-information-habernews .name{ font-weight:600; letter-spacing:0.4px }
+.col-md-3.zt-imagewrap{ padding-left:0px;}
+/*
+	==========================================================
+		CONTACT PAGE
+	==========================================================
+*/
+
+.page-header.habernews{display:none;}
+.contact .nav-tabs{border-bottom:0}
+.contact .nav-tabs > li > a{ border-radius:0px;}
+.contact-form.habernews .well{box-shadow:none; border-radius:0px;}
+.contact i{margin-right:5px; font-size:20px;}
+.contact-form habernews.form-horizontal .control-group .control-label{  text-align: left;}
+.contact-right .dl-horizontal dd{margin-left:0px; margin-bottom:10px;display: flex;
+justify-content: flex-end;}
+.contact-right .dl-horizontal dt{ width:auto;display: flex;}
+.contact #jform_spacer-lbl{font-size:12px; font-weight:300}
+.contact-form textarea#jform_contact_message {height:150px;}
+.icon-address::before {content: "\f015";font-family: fontawesome;font-size:20px; }
+.icon-fax::before {content: "\f1ac";font-family: fontawesome;font-size:20px;}
+.contact .contact-address span{ margin-right:7px;}
+.contact .icon-phone::before,.icon-mobile::before,.icon-home::before{font-size:20px;}
+/*
+	=======================================
+		VIDEOS
+	=======================================
+*/
+.mod-yendifvideoshare-search.habernews .input-group {position: relative;display: flex;border-collapse: separate;}
+.mod-yendifvideoshare-search.habernews .btn { margin-left:10px}
+.yendif-video-share-title {margin: 7px 0;}
+.yendif-video-share-title a{ font-weight:600}
+.yendif-video-share-views-count {margin:0px 0 15px 0;}
+
+/*
+	=======================================
+		PORTFOLIO
+	=======================================
+*/
+.featherlight{ z-index:9999!important;}
+.filters.btn-toolbar .btn{height:38px;}
+span[itemprop="keywords"] { margin-right:5px;}
+.sp-simpleportfolio .sp-simpleportfolio-description.habernews{ width:100%; margin-bottom:15px;}
+.sp-simpleportfolio-meta.habernews{ width:100%; padding-left: 0px;}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a {border-radius:0px;
+}
+/*
+	=======================================
+		BLOG- JT CONTENT SLIDER
+	=======================================
+*/
+.jt-cs .jt-extra.habernews{ font-size:100%;}
+.jt-cs .jt-extra.habernews.blogstyle .fa{ margin-right:7px;}
+.jt-cs .jt-extra.habernews .jt-date,.jt-cs .jt-extra.habernews .jt-author{ padding-right:15px;}
+.jt-cs .jt-imagewrap.habernews.blogstyle img{ margin-bottom:0;transition: all 0.3s ease-in-out 0s;}
+.jt-cs .jt-imagewrap.habernews.blogstyle:hover img {transition: all 0.5s ease-in-out 0s;transform: scale(1.1);}
+.habernews-blogstyle .jt-image-link::after{ position:absolute; content:""; left:0; right:0; top:0; bottom:0; background:#000; opacity:0;transition: all 0.5s ease-in-out 0s; z-index:1}
+.jt-imagewrap.habernews.blogstyle:hover .jt-image-link::after{transition: all 0.5s ease-in-out 0s;opacity:0.4;}
+.jt-row-separate.habernews.blogstyle{ height:30px;border-bottom:0;}
+.jt-imagewrap.habernews.blogstyle i{position: absolute;font-size:30px;backface-visibility: hidden;border-radius: 100%;width: 60px;height: 60px;left: 50%;line-height:60px;margin: -20px 0 0 -20px;opacity: 0;position: absolute;text-align: center;top: 50%;transition: all 0.3s ease-in-out 0s; z-index:1}
+.jt-imagewrap.habernews.blogstyle:hover i{opacity:1;transition: all 0.3s ease-in-out 0s;}
+.jt-cs .jt-inner .jt-title.habernews.blogstyle{text-transform: capitalize;}
+.jt-cs .jt-extra.habernews.blogstyle{margin-top:5px; margin-bottom:10px }
+.readmore.habernews.blogstyle,.readmore.habernews.blogstyle a{ color:#fff;text-transform:uppercase; font-size:14px; margin-top:15px;}
+
+.jt-cs .next.habernews, .jt-cs .prev.habernews{ display:inline-block;bottom:0px; height:31px; width:31px;}
+.habernews-blogstyle .jt-arrows.habernews{ position:relative;margin-top:40px}
+.jt-cs .habernews-blogstyle .bt_handles_num {position:relative!important; z-index:1;}
+.jt-cs .habernews-blogstyle .bt_handles_num li{float:none; display:inline-block; margin:0 5px!important;}
+.jt-cs .habernews-blogstyle .bt_handles_num li a{ font-size:14px; line-height:33px; height:31px; width:31px; float:none;}
+.habernews-blogstyle .bt_handles_num li a:hover{ color:#fff!important}
+.jt-cs .habernews-blogstyle a.prev.habernews{left:25%; z-index:2;background: url(../images/re-left-2.png) left center no-repeat !important;}
+.jt-cs .habernews-blogstyle a.next.habernews{right:25%; z-index:2;background: url(../images/re-right-2.png) right center no-repeat !important;}
+.jt-cs .jt-inner.habernews img{ border:0;outline:0; margin:0 0 15px 0; max-width:100%;}
+/*
+-------------------------------------------------------------------------------------
+                         WEATHER
+-------------------------------------------------------------------------------------
+*/
+.weather_sp1_forecasts.habernews .block_even, .weather_sp1_forecasts.habernews .block_odd {padding-left:5px;}
+.weather_sp1_forecasts.habernews.layout-block{ margin-top:15px}
+/*
+-------------------------------------------------------------------------------------
+                         MOBILE CSS
+-------------------------------------------------------------------------------------
+*/
+@media screen and (max-width:360px){
+.highlighter-left{ height:49px; overflow:hidden;width:100%;}
+.wrap.highlighter .container{ margin-left:-15px; margin-right:-15px;  }
+.gkHighlighterInterface.habernews{ padding-left:15px!important;}
+.gkHighlighterWrapper.habernews {padding:10px 15px 10px 0!important;}
+.gkHighlighterWrapperSub.habernews {font-size:12px;}
+.head-date {padding: 15px!important;text-align: center;font-size:12px;}
+.logo{ margin-bottom:15px;}
+#avs_gallery .avs_thumb{ width:99.9%!important;height:auto!important; margin:0!important; padding:7px 7px 7px 0!important}
+#avs_gallery .avs_thumb img.image{ width:100%!important; height:auto!important}
+.avs_clear { clear:none;}
+}
+
+@media screen and (max-width:767px){
+#t3-mainnav .container {padding-left: 15px;padding-right: 15px;}
+.navbar-toggle{margin-top:7px;margin-bottom:7px;border-radius:0px;}
+.Nsp-outer-wrapper.habernews .nspImageWrapper,.nspMain.habernews .nspImageWrapper,.nspImageWrapper{ width:auto!important;margin: 0 0px 0px 0!important;}
+.nspLinksWrap { padding:0px!important;}
+.Nsp-outer-wrapper.habernews.sidebar .nspImageWrapper{ margin:0px 15px 0px 0!important;}
+.submain-3 {padding-right:0px;}
+.Nsp-outer-wrapper.habernews.submain {margin-right:0px;}
+.bt-cs.habernews .bt-inner {padding: 0px;}
+.Nsp-outer-wrapper.footer .nspImageWrapper{margin: 0 10px 0px 0 !important;}
+.section-upper h1{ font-size:24px;}
+.pull-left.item-image img,.article-intro .pull-left.item-image{ margin-right:0px!important}
+.bottomright ul.menu {float: left;}
+.bottomright{ margin-top:15px;}
+.navbar-default .navbar-nav > li span{ color:#fff}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a{ margin-bottom:15px;}
+
+.Nsp-outer-wrapper.habernews .nspLinks.habernews .nspImageWrapper { margin-right:15px!important;}
+.Nsp-outer-wrapper.habernews.downspot .nspMain.habernews .nspImageWrapper{margin:0px 15px 0px 0!important;}
+
+.bt-cs.habernews .bt-title-cat-intro-habernews{ padding:15px}
+.jt-cs.habernews .jt-inner .jt-title.habernews.pictured-news {font-size:19px; line-height:1;}
+
+.Nsp-outer-wrapper.habernews.submain-3 .nspArts.habernews h4.nspHeader, .Nsp-outer-wrapper.habernews.sidebar-2 .nspArts.habernews h4.nspHeader,.Nsp-outer-wrapper.habernews .nspArts.habernews h4.nspHeader,.Nsp-outer-wrapper.habernews.submain .nspArts.habernews h4.nspHeader{ padding-top:10px;}
+.nspArts.right.habernews .nspArt,.nspArts.bottom.habernews .nspArt{ padding-right:0!important}
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > .separator,.navbar-default .navbar-nav > li span {padding:15px 7px; font-size:90%;}
+}
+@media screen and (max-width:550px){
+.jt3-extra,.overlay-section-habernews h4,.overlay-section-habernews h4 a{ font-size:15px; font-weight:600;}
+p.introtext.habernews,p.readmore.habernews a{ font-size:12px; font-weight:400; line-height:1;}
+.overlay-section-habernews{ padding:5px 10px 5px 10px; height:55%}
+.overlay-section-habernews h4{ margin:0 0 5px 0;}
+.nspArts,.nspLinksWrap { width:100%!important;}
+.copyright,.copyright p {font-size:12px;}
+.submain-4 {padding-left:0px;}
+.nspLinks .nspImageWrapper{margin: 0 15px 10px 0 !important;}
+.Nsp-outer-wrapper.habernews.submain-2 .nspImageWrapper{ width:100%!important;margin: 0 0px 20px 0!important;}
+.Nsp-outer-wrapper.habernews.submain-2 .nspArt{ margin-bottom:30px; }
+.jttabs-wrapper.habernews ul.nav-tabs > li button.nav-link{ font-size:12px; padding:10px}
+#t3-mainnav.affix .container{ background-image:url(../images/logo-darktheme.png); background-repeat:no-repeat; background-position:center 3px; }
+.bottomright ul.menu li a{padding:0px 20px 0px 0px}
+.article-title, .article-header h1 {font-size:20px;}
+}
+@media screen and (min-width: 361px) and (max-width:991px){
+#avs_gallery .avs_thumb{ width:49.9%!important; margin:0!important; padding:7px 7px 7px 0!important;}
+#avs_gallery .avs_thumb img.image{ width:100%!important; height:auto !important;}
+.avs_clear { clear:none;}
+}

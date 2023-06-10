@@ -1,0 +1,139 @@
+/** * @package Mansethaber JT2 Module for Joomla 2.5 By Joomlatema.net
+ * @version $Id: mod_mansethaber_JT2.php  2013-07-30  Joomlatema.Net $
+ * @author Muratyil
+ * @copyright (C) 2013- Muratyil
+ * @license GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
+#jt2-mansethaber-news {
+overflow:hidden;}
+#jt-slide-frame {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 13px;
+	width: 48%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.jt2-mansethaber-news {
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+.jt2-mansethaber-news .buttons{
+	text-align:center;
+	clear:both;
+}
+
+#titledirect {
+	margin: 0px;
+	padding: 0px;
+	width: 300px;
+	float: right;
+	background: #fff !important;
+}
+#titledirect ul {
+	margin: 0px;
+	padding: 0px;
+}
+#titledirect li {
+	margin: 0px;
+	padding: 7px 5px 7px 30px;
+	color: #6E6E6E;
+}
+#titledirect li.active {
+	color: #2A5B9E;
+}
+.sliderwrapper {
+	overflow: hidden; /*leave as is*/
+	height:100%;
+}
+
+.sliderwrapper .newscontentdiv {
+
+}
+
+.sliderwrapper .newscontentdiv h2 {
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Tahoma;
+	font-size: 150%;
+	font-weight: 100;
+	color: #2A5B9E;
+}
+#jt2-mansethaber-news .sliderwrapper .newscontentdiv a.readone {
+	padding-right: 15px;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#jt2-mansethaber-news .sliderwrapper .newscontentdiv a.readone:hover {
+	background:none;
+	text-decoration:none;
+}
+.sliderwrapper .newscontentdiv p {
+	clear: both !important;
+}
+.jt2-mansethaber-pagination{
+	margin: 0px;
+	padding: 0px;
+}
+.jt2-mansethaber-pagination ul {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	list-style: none;
+}
+.jt2-mansethaber-pagination li {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+.jt2-mansethaber-pagination a.toc {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+.jt2-mansethaber-pagination a.toc span {
+	background: url(../images/indent2.png) no-repeat left !important;
+	display: block;
+	margin: 0px 0px 0px 10px; 
+	height: auto;
+    overflow: hidden;
+    padding: 5px 0 5px 15px;
+	font-weight:bold;
+}
+.jt2-mansethaber-pagination .mjt-links {border-bottom:1px solid #DBDBDB; padding-bottom:10px;}
+.mjt2-author { padding-left:15px;}
+.mjt2-date{ padding-left:25px;}
+.jt2-mansethaber-pagination a.toc:hover span,
+.jt2-mansethaber-pagination a.selected span{
+	display: block;
+	margin: 0px 0px 0px 10px;
+    padding: 5px 0 5px 15px;
+}
+.jt2-mansethaber-pagination a.toc:active,
+.jt2-mansethaber-pagination a.toc:active span {
+	background: none;
+}
+.main_br{
+	width:100%;
+	height:100%;
+}
+#jt2-mansethaber-news a:active, #jt2-mansethaber-news a:focus {
+background:none;}
+.padding p{
+margin-top:0;}
+#jt2-mansethaber-news a.showmore:link,#jt2-mansethaber-news a.showmore:visited{
+margin:10px 20px 5px 10px ;
+background: url(../images/indent4.png) no-repeat left !important;
+padding-left:10px;
+text-decoration:none;
+}
+#jt2-mansethaber-news a.showmore:hover{
+background:none;
+text-decoration:none;}
