@@ -3331,11 +3331,11 @@ a.btn .cancel {
   color: #dddddd;
 }
 .container {
-  background-color: #27292d;
+  background-color: #000000;
 }
 body.fullwidth-layout,
 .fullwidth-layout.t3-wrapper {
-  background-color: #27292d;
+  background-color: #000000;
 }
 .fullwidth-layout.container {
   background-color: transparent;
